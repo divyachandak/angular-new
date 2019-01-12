@@ -1,0 +1,28 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-feature',
+  template: `
+  <div class="col-6 col-md">
+  <h5>Features</h5>
+  <ul class="list-unstyled text-small">
+    <li><a class="text-muted" href="#">Cool stuff</a></li>
+    <li><a class="text-muted" href="#">Random feature</a></li>
+    <li><a class="text-muted" href="#">Team feature</a></li>
+    <li><a class="text-muted" href="#">Stuff for developers</a></li>
+    <li><a class="text-muted" href="#">Another one</a></li>
+    <li><a class="text-muted" href="#">Last time</a></li>
+  </ul>
+</div>
+
+  `,
+  styles: []
+})
+export class FeatureComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
