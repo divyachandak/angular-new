@@ -15,8 +15,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class InfoTitleComponent implements OnInit {
-
-  constructor() { }
+constructor() { }
 
   ngOnInit() {
   }
