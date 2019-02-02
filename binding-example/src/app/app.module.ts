@@ -8,6 +8,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { EventComponent } from './event/event.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { from } from 'rxjs';
+import { ChangeTextColorComponent } from './change-text-color/change-text-color.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { from } from 'rxjs';
     PropertyBindingComponent,
     EventBindingComponent,
     EventComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    ChangeTextColorComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
