@@ -10,6 +10,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { from } from 'rxjs';
 import { ChangeTextColorComponent } from './change-text-color/change-text-color.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { PComponent } from './custom-i/p/p.component';
+import { CustomInputOutputComponent } from './custom-input-output/custom-input-output.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CalculatorComponent } from './calculator/calculator.component';
     EventComponent,
     TwoWayBindingComponent,
     ChangeTextColorComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    PComponent,
+    CustomInputOutputComponent
   ],
   imports: [
     BrowserModule,
